@@ -1,0 +1,369 @@
+.search{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  border: none;
+  padding: 2px 2px;
+ 
+  background-color: #2d2d2d;
+  border-radius: 30px;
+  /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3); */
+}
+#searchbar{
+  border-radius: 30px;
+  width: 100%;
+  padding: 10px 12px;
+  border:none;
+  font-size: larger;
+}
+
+.search svg{
+  margin: 2% 2%;
+  /* margin-right: 1.5%; */
+}
+
+ .cards {
+  border-radius: 200px;
+  margin: 0 auto;
+
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 10fr));
+  grid-auto-rows: auto;
+  gap: 5%;
+  font-family: sans-serif;
+  padding-top: 3%;
+  padding-bottom: 10%;
+  color:#D3D3D3;
+
+
+  
+}
+
+.cards * {
+  box-sizing: border-box;
+ 
+}
+.card{
+  box-shadow: 10px 10px 10px ;
+  border-radius: 20px;
+
+}
+
+
+.card__image {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+
+}
+
+.card__content {
+  
+  line-height: 1;
+  font-size: 1em;
+  padding: 10px;
+  background: #E7E9EB;
+  min-height:150px;
+  color: #2d2d2d;
+  
+}
+p.card__content{
+  margin-top: -5px;
+}
+.card__content > p:first-of-type {
+  margin-top: 0;
+}
+
+.card__content > p:last-of-type {
+  margin-bottom: 0;
+}
+
+.card__info {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color:whitesmoke;
+  background:  	#E7E9EB;
+  font-size: 0.8em;
+  
+ 
+}
+
+.card__info i {
+  font-size: 0.9em;
+  margin-right: 8px;
+}
+
+.card__link {
+  color: white;
+  text-decoration: none;
+}
+
+.card__link:hover {
+  background-color: #43464b;
+
+}
+
+.btn{
+  text-align: center;
+  background-color: #04AA6D; 
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 3px;
+}
+.btn:hover{
+  background-color: #43464b;
+}
+/* body {
+  font-family: Monospace;
+  margin: 0px;
+  margin-bottom:0px;
+  background-image: url('bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  min-height: 100%;
+
+
+ } */
+ .content {
+  max-width:100%;
+  height:100%;
+  padding: 16px;
+  min-height: 100%;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+  z-index:2;
+  
+  
+}
+
+/* body {
+    font-family: Monospace;
+    margin: 0px;
+    margin-bottom:0px;
+    background-image: url('/src/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    min-height: 100%;
+
+ 
+   }
+*/
+/* .content {
+    max-width:100%;
+    height:100%;
+    padding: 16px;
+    min-height: 100%;
+    color: #060606;
+    margin-bottom: 50px;
+    z-index:2;
+} */
+/*
+.cards {
+    border-radius: 200px;
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 10fr));
+    grid-auto-rows: auto;
+    gap: 70px;
+    font-family: sans-serif;
+    padding-top: 70px;
+    color: #333333;
+    
+  }
+  
+  .cards * {
+    box-sizing: border-box;
+  }
+  
+  .card__image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+  
+  }
+  
+  .card__content {
+    
+    line-height: 1;
+    font-size: 1em;
+    padding: 10px;
+    background: whitesmoke;
+    min-height:150px;
+    
+  }
+  p.card__content{
+    margin-top: -5px;
+  }
+  .card__content > p:first-of-type {
+    margin-top: 0;
+  }
+  
+  .card__content > p:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  .card__info {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #555555;
+    background: whitesmoke;
+    font-size: 0.8em;
+   
+  }
+  
+  .card__info i {
+    font-size: 0.9em;
+    margin-right: 8px;
+  }
+  
+  .card__link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .card__link:hover {
+    background-color: #43464b;
+  
+  }
+  
+  .btn{
+    text-align: center;
+    background-color: black; 
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+  }
+  .btn:hover{
+    background-color: #43464b;
+  }
+  
+  * {box-sizing:border-box}
+  
+  /* Slideshow container */
+  /* .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    
+    
+    
+  }
+  .mySlides{
+    max-width:100%;
+    max-height: 70vh!important;
+    min-height: 70vh!important;
+    margin:0 auto;
+    
+  }
+  .fotu{
+    max-width:100%;
+    max-height: 70vh!important;
+    min-height: 70vh!important;
+    margin:0 auto;
+    
+  }
+  /* Hide the images by default */
+  /*.mySlides {
+    display: none;
+   
+    
+    
+    
+  }
+  
+  /* Next & previous buttons */
+  /*.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  /*.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  /*.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  /*.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  /* .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  } */
+  
+  /* The dots/bullets/indicators */
+  /* .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  } */
+  
+  /* Fading animation */
+  /* .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  } */

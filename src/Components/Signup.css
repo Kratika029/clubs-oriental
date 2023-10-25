@@ -1,0 +1,122 @@
+.signup-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* or use this for login */
+.login-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 8%;
+}
+
+
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px white;
+    border-radius: 10px;
+    width: 350px;
+
+}
+/* or use this for login */
+.login-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px white;
+    border-radius: 10px;
+    width: 350px;
+
+}
+
+.signup-form label{
+    margin-top: 16px;
+    font-weight: 700px;
+    font-size: 16px;
+}
+/* or use this for login */
+.login-form label{
+    margin-top: 16px;
+    font-weight: 700px;
+    font-size: 16px;
+}
+
+.signup-form input{
+   
+    margin: 2px 0px;
+    padding: 5px;
+    border: 2px white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* or */
+.login-form input{
+   
+    margin: 2px 0px;
+    padding: 5px;
+    border: 2px white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.signup-form button{
+    background-color: rgb(54, 152, 238);
+    margin: 20px 0px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+/* or */
+.login-form button{
+    background-color:rgb(54, 152, 238);
+    margin: 20px 0px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+h2{ 
+    background-color: rgb(54, 152, 238);
+    margin: 20px 0px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+}
+
+.successMsg{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(66, 241, 60);
+    color: green;
+    padding: 10px; 
+    border-radius: 10px;
+}
+
+.errorMsg{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(255, 228, 228);
+    color: red;
+    padding: 10px; 
+    border-radius: 10px;
+ 
+}

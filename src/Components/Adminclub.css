@@ -1,0 +1,113 @@
+.admincontent{
+    display: flex;
+    flex-direction: row;
+    
+}
+.admin-form{
+    /* background-color: aquamarine; */
+    width:20%;
+    display:flex;
+    flex-direction: row;
+    padding: 25px;
+    /* align-items: center; */
+    /* margin:auto; */
+    /* height : 100%; */
+    /* border-spacing: 22px; */
+    
+}
+.admin-events{
+    width:75%;
+}
+.admin-form form{
+    display:flex;
+    flex-direction: column;
+    height: 700px;
+    border-spacing: 22px;
+    row-gap: 12px;
+    /* column-gap: 122px; */
+}
+form label{
+    font-size: 1rem;
+}
+.admin-form h3{
+    font-size: 1.5rem;
+}
+.differ-clubs{
+    /* background-color: aliceblue; */
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    column-gap: 15px;
+}
+.differ-clubs button{
+    background-color: #04AA6D; 
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 3px;
+    /* padding: 0px 5px;
+    margin: 8px 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 13px; */
+}
+.differ-clubs button:hover{
+    background-color: #43464b;
+    /* color: black; */
+    font-weight: 600;
+}
+/* ..................... */
+/* Allevents css */
+
+.event-cards-grid{
+    
+    width: 100%;
+    display: grid;
+    /* margin-right: 200px; */
+    /* grid-template-columns: repeat(4, minmax(150px, 10fr)); */
+    grid-template-columns: 350px 350px;
+    /* grid-template-rows: 133px, 133px, 133px; */
+    padding-left: 3%;
+    grid-auto-rows: auto;
+    gap: 5%;
+    margin: 0 auto;
+    font-family: sans-serif;
+  /* padding-top: 3%; */
+  /* padding-bottom: 10%; */
+  color:#D3D3D3;
+    box-sizing: border-box;
+}
+
+/* eventcontainer css */
+
+.event-card{
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background: #E7E9EB;
+    /* color:#D3D3D3; */
+    /* background-color: blueviolet; */
+    position: relative;
+    /* box-shadow: 5px 5px 5px; */
+    color:#D3D3D3;
+    box-shadow: 10px 10px 10px ;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.event-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 1rem 1rem 0 0;
+}
+.event-card-desc{
+    line-height: 1;
+  font-size: 1em;
+    padding: 2px;
+    justify-content: center;
+    text-align: center;
+    color: #2d2d2d;
+}
