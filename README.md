@@ -1,6 +1,6 @@
 # clubs@oriental | Website for college clubs <br/>
 • Designed and built a college club website with React and Firebase.  <br/>
-• Enabled students to join clubs, access event updates, and share resources through a responsive UI. <br/>
+• Enabled students to join clubs, access event updates, and share resources through a responsive UI. <br>
 • Implemented admin functionalities for club management, including announcements. <br/>
 • Utilized HTML, CSS, React, Firebase, React Router, and GitHub. <br/>
 
